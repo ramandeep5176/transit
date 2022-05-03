@@ -1,7 +1,13 @@
-import Index from "./components";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; use for later
+import { HomePage } from "./pages";
+import { Footer, Header } from "./components/Index";
 function App() {
-  return <Index></Index>;
+  return (
+    <>
+      <HomePage></HomePage>
+      <Header></Header>
+      <Footer></Footer>
+    </>
+  );
 }
 
 export default App;

@@ -1,7 +1,4 @@
-import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 
-const Index = () => {
-  return <div>worhgfdth</div>;
-};
-
-export default Index;
+export { Footer, Header };
